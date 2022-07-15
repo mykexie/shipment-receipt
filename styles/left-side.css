@@ -1,101 +1,59 @@
-.right-table{
+@media (max-width: 31.1875em){
+    .payment-to{
+        white-space: nowrap;
+    }
+}
+.left-table{
     flex: 1;
 }
-.right-table>div {
+
+.left-table>div {
     border-top: 0.0625rem solid black;
+    border-right: 0.0625rem solid black;
     border-left: 0.0625rem solid black;
+}
+
+.city li:nth-child(1),
+.country li:nth-child(1) {
     border-right: 0.0625rem solid black;
 }
-.reciever {
+.sender{
     display: flex;
     align-items: flex-end;
     height: 3.5rem;
 }
+.payment-to {
 
-table  {
-    width: 100%;
-    text-align: center;
-}
-table td{
-    border-left: 0.0625rem solid black;
-    border-top: 0.0625rem solid black;
-}
-.table .first-row,
-.table .second-row{
-    height: 0.625rem;
-}
-
-table .last-row{
-    height: 2.5rem;
-}
-
-.detail-check {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     height: 6.25rem;
-}
-
-.services-check{
-    border-left: 0.0625rem solid black;
     display: grid;
-    grid-template-rows: 1.25rem 1fr;
-
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
 }
-.check{
+.payment-to .left{
+    display: flex;
+}
+
+.payment-to .left .label {
+    display: flex;
+    flex-direction: column;
+}
+.payment-to .left .checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+}
+
+.city,
+.country ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.checkbox{
-    display: flex;
-    align-items: center;
-    
-}
-.check label,
-.check input{
-    margin-top: 0.9375;
-    margin-bottom: auto;
-}
-.check label{
-    font-size: 0.8125rem;
-    white-space: nowrap;
-    margin-right: auto;
-}
-.label-container-1{
-    display: flex;
-    flex-direction: column;
-}
-.invoice-value{
-    border-left: 0.0625rem solid black;
-}
-.invoice-value li{
-    text-decoration: underline;
-    width: 75%;
-    font-size: 1rem;
-}
-
-
-.proof {
-    display: grid;
-    grid-template-rows: auto 1fr;
-
-}
-
-.proof>div {
+.acknowledge{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.acknowledge > div{
+    border-right: 0.0625rem solid black;
+}
 
-.paragraph-div{
-    height: 4.0625rem;
-}
-.proof-delivery div{
-    border-left: 0.0625rem solid black;
-    border-bottom: none;
-}
-.date{
-    display: flex;
-    flex-direction: column;
-    border: none;
-    align-items: left;
-}
