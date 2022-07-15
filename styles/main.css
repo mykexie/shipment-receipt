@@ -1,0 +1,87 @@
+@import url(./left-side.css);
+@import url(./right-side.css);
+@import url(./header.css);
+
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+:root {
+    --primary-color: rgb(224,118,18);
+    --secondary-color: rgb(245, 146, 54);
+    --nursery-color: rgb(224, 63, 63);
+}
+
+body {
+    padding-inline: 1rem;
+    min-height: 100vh;
+
+}
+@media (min-width: 31.25em) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: 10rem 1fr;
+        justify-content: space-between;
+    }
+
+    main {
+        display: flex;
+        border: 0.0625rem solid black;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .header .middle-box {
+        margin-bottom: -3rem;
+    }
+}
+
+li,
+p{
+    list-style: none;
+    margin-left: 0.5rem;
+}
+.orange{
+    background: var(--primary-color);
+    color: white;
+}
+.secondary{
+    background: var(--secondary-color);
+    color: white;
+}
+.cont-color{
+    color: var(--nursery-color);
+}
+
+.little-space {
+    height: 1.25rem;
+}
+
+.large-space {
+    height: 6rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.825rem;
+}
+
+

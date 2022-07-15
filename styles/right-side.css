@@ -1,0 +1,98 @@
+.right-table>div {
+    border-top: 0.0625rem solid black;
+    border-left: 0.0625rem solid black;
+    border-right: 0.0625rem solid black;
+}
+.reciever {
+    display: flex;
+    align-items: flex-end;
+    height: 3.5rem;
+}
+
+table  {
+    width: 100%;
+    text-align: center;
+}
+table td{
+    border-left: 0.0625rem solid black;
+    border-top: 0.0625rem solid black;
+}
+.table .first-row,
+.table .second-row{
+    height: 0.625rem;
+}
+
+table .last-row{
+    height: 2.5rem;
+}
+
+.detail-check {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 6.25rem;
+}
+
+.services-check{
+    border-left: 0.0625rem solid black;
+    display: grid;
+    grid-template-rows: 1.25rem 1fr;
+
+}
+.check{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    
+}
+.check label,
+.check input{
+    margin-top: 0.9375;
+    margin-bottom: auto;
+}
+.check label{
+    font-size: 0.8125rem;
+    white-space: nowrap;
+    margin-right: auto;
+}
+.label-container-1{
+    display: flex;
+    flex-direction: column;
+}
+.invoice-value{
+    border-left: 0.0625rem solid black;
+}
+.invoice-value li{
+    text-decoration: underline;
+    width: 75%;
+    font-size: 1rem;
+}
+
+
+.proof {
+    display: grid;
+    grid-template-rows: auto 1fr;
+
+}
+
+.proof>div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.paragraph-div{
+    height: 4.0625rem;
+}
+.proof-delivery div{
+    border-left: 0.0625rem solid black;
+    border-bottom: none;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    align-items: left;
+}

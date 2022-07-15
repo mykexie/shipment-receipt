@@ -1,0 +1,56 @@
+@media (max-width: 31.1875em){
+    .payment-to{
+        white-space: nowrap;
+    }
+}
+
+.left-table>div {
+    border-top: 0.0625rem solid black;
+    border-right: 0.0625rem solid black;
+    border-left: 0.0625rem solid black;
+}
+
+.city li:nth-child(1),
+.country li:nth-child(1) {
+    border-right: 0.0625rem solid black;
+}
+.sender{
+    display: flex;
+    align-items: flex-end;
+    height: 3.5rem;
+}
+.payment-to {
+
+    height: 6.25rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+.payment-to .left{
+    display: flex;
+}
+
+.payment-to .left .label {
+    display: flex;
+    flex-direction: column;
+}
+.payment-to .left .checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+}
+
+.city,
+.country ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.acknowledge{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.acknowledge > div{
+    border-right: 0.0625rem solid black;
+}
+
