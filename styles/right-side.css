@@ -87,7 +87,7 @@ table .last-row{
 }
 
 .paragraph-div{
-    height: 4.0625rem;
+    height: auto;
 }
 .proof-delivery div{
     border-left: 0.0625rem solid black;
