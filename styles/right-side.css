@@ -1,3 +1,6 @@
+.right-table{
+    flex: 1;
+}
 .right-table>div {
     border-top: 0.0625rem solid black;
     border-left: 0.0625rem solid black;
